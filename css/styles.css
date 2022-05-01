@@ -1,3 +1,20 @@
+/* цвет основного текста #757575*/
+/* вторичный цвет текста #212121 */
+/* белый цвет #FFFFFF */
+/* акцентный цвет текста #2196F3 */
+/* вторичный цвет фона #F5F4FA;*/
+/* цвет фона футера #2F303A; */
+/* цвет фона #e5e5e5 */
+
+
+:root {
+    --primary-text-color:#212121;
+    --text-color:#757575;
+    --accent-color:#2196F3;
+    --white-color:#ffffff;
+    --secondary-background-color:#F5F4FA;
+}
+
 body {
    background-color: #e5e5e5;
    color: #757575;
@@ -6,21 +23,80 @@ body {
     list-style: none;
 }
 
-
-
-/* цвет основного текста #757575*/
-/* вторичный цвет текста #212121 */
-/* белый цвет текста #FFFFFF */
-/* акцентный цвет текста #2196F3 */
-/* вторичный цвет фона #F5F4FA;*/
-/* цвет фона хедера №FFFFFF*/
-/* цвет фона футера #2F303A; */
+/* logo */ 
 
 .header-link {
-    color: #212121;
-}
-.span {
-    color: #2196F3;
+    color: var(--primary-text-color);
 }
 
-/* main-navigation */
+span {
+    color: var(--accent-color);
+}
+
+ /* navigation */ 
+
+.header-navigation a {
+    color:var(--primary-text-color);
+}
+.header-navigation a:hover,
+.header-navigation a:focus
+{
+    color:var(--accent-color);
+}
+.header-list a {
+    color:var(--text-color);
+}
+
+.header-list a:hover,
+.header-list a:focus {
+    color:var(--accent-color);
+}
+  
+header {
+    background: #ffffff;
+}
+
+  /* section hero */
+
+ .hero-title {
+    color:var(--white-color);
+ }
+
+
+/* section */
+
+.section-title, 
+.benefits-title,
+.work-title,
+.team-title,
+.employee-title,
+.portfolio-work,
+.portfolio-title
+ {
+    color:var(--primary-text-color);
+}
+/* Button */
+.button 
+
+.btn-secondary {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.btn-primary {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-background-coloror);
+}
+
+ /* footer */
+
+.footer-link {
+    color:var(--white-color);
+}
+
+.footer-item a {
+    color:var(--white-color);
+}
+footer {
+background: #2F303A;
+}
