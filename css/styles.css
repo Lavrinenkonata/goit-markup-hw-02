@@ -22,13 +22,14 @@ body {
    letter-spacing: 0.03em;
    text-decoration: none;
 }
+
 .list {
     list-style: none;
 }
 
 /* logo */ 
 
-.header-link {
+.header-link a {
     color: var(--primary-text-color);
 
     font-family: Raleway,
@@ -36,9 +37,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-}
-
-.header-list {text-decoration: none;}
+    }
 
 span {
     color: var(--accent-color);
@@ -63,7 +62,7 @@ span {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    
 }
 
 
@@ -82,7 +81,7 @@ span {
 }
   
 header {
-    background: #ffffff;
+    background: var(--white-color);
 }
 
   /* section hero */
@@ -197,16 +196,25 @@ header {
 }
 
 .footer-item a {
-    color:var(--white-color);
+    color:rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
-.footer-item mail {
-    color: rgba(255, 255, 255, 0.6); }
+.footer-link a {
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
 
 .footer-item a:hover,
 .footer-item a:focus {
+    color: var(--accent-color);
+}
+
+.footer-link a:hover,
+.footer-link a:focus {
     color: var(--accent-color);
 }
 
