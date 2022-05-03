@@ -114,6 +114,12 @@ header {
 {
     color:var(--primary-text-color);
 }
+.section-title {
+visibility: hidden;
+pointer-events: none;
+position: absolute;
+
+}
 
 .benefits-title {
     font-weight: 700;
