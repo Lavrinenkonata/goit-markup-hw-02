@@ -16,10 +16,11 @@
 }
 
 body {
-   background-color: #e5e5e5;
+   background-color: #ffffff;
    color: #757575;
    font-family: Roboto, sans-serif;
    letter-spacing: 0.03em;
+   text-decoration: none;
 }
 .list {
     list-style: none;
@@ -34,8 +35,10 @@ body {
     sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.19;
 }
+
+.header-list {text-decoration: none;}
 
 span {
     color: var(--accent-color);
@@ -50,6 +53,7 @@ span {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .main-navigation .header-navigation .current {
@@ -59,7 +63,9 @@ span {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
+
 
 .header-navigation a:hover,
 .header-navigation a:focus
@@ -131,7 +137,7 @@ header {
 }
 .team-text {
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
 }
 
 .portfolio-title {
@@ -141,7 +147,7 @@ header {
     letter-spacing: 0.06em;
 }
 
-.portfolio-title {
+.portfolio-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
@@ -196,6 +202,8 @@ header {
     font-size: 14px;
     line-height: 1.71;
 }
+.footer-item mail {
+    color: rgba(255, 255, 255, 0.6); }
 
 .footer-item a:hover,
 .footer-item a:focus {
@@ -204,4 +212,7 @@ header {
 
 footer {
     background: #2F303A;
+}
+address {
+    font-style: normal;
 }
