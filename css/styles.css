@@ -22,6 +22,11 @@ body {
    letter-spacing: 0.03em;
    text-decoration: none;
 }
+}
+
+.link {
+    text-decoration: none;
+}
 
 .list {
     list-style: none;
