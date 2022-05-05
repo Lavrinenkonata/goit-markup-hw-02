@@ -22,7 +22,6 @@ body {
    letter-spacing: 0.03em;
    text-decoration: none;
 }
-}
 
 .link {
     text-decoration: none;
@@ -101,6 +100,11 @@ header {
     letter-spacing: 0.06em;
     text-transform: uppercase;
  }
+
+.header-link a,
+.header-item a {
+    text-decoration: none;
+}
 
 /* section */
 
@@ -193,6 +197,11 @@ position: absolute;
 
  /* footer */
 
+.footer-link a,
+.footer-active a,
+.footer-item a {
+    text-decoration: none;
+}
 .footer-link {
     color:var(--white-color);
 
